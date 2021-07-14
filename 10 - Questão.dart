@@ -6,12 +6,12 @@ void main(){
   int idade= int.parse(stdin.readLineSync()!);
 
   if((idade >= 1) && (idade <=15))
-      print("Não votante.");
+      print("\nNão votante.");
 
   else if((idade == 16) || (idade == 17) || (idade >=66) && (idade <=130))
-      print("Eleitor facultativo.");
+      print("\nEleitor facultativo.");
 
   else if(idade >= 18 && (idade <=65))
-      print("Eleitor obrigatório.");
+      print("\nEleitor obrigatório.");
 
 }

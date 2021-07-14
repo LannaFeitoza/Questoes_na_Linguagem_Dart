@@ -9,7 +9,7 @@ void main(){
   double pagar= p_acrescimo - p_acrescimo * 0.1;
   double prejuizo= pagar - p_atrasada;
 
-  print("Valor a pagar: R\$ $pagar");
+  print("\nValor a pagar: R\$ $pagar");
   print("Prejuízo: R\$ $prejuizo");
 
 }

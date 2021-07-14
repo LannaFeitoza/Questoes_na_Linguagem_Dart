@@ -5,10 +5,10 @@ void main(){
   print("Digite o dia: ");
   int dia= int.parse(stdin.readLineSync()!);
 
-  print("Digite o mês: ");
+  print("\nDigite o mês: ");
   int mes= int.parse(stdin.readLineSync()!);
 
-  print("Digite o ano: ");
+  print("\nDigite o ano: ");
   int ano= int.parse(stdin.readLineSync()!);
 
   if(ano > 0) {
@@ -22,30 +22,30 @@ void main(){
           case 8:
           case 10:
           case 12:
-            print("Data: $dia/$mes/$ano válida!");
+            print("\nData: $dia/$mes/$ano válida!");
           break;
 
           default:
-            print("Data: $dia/$mes/$ano inválida!");
+            print("\nData: $dia/$mes/$ano inválida!");
         }
       break;
 
       case 30:
         if ((mes == 1) || (mes >= 3) && (mes <= 12))
-          print("Data: $dia/$mes/$ano válida!");
+          print("\nData: $dia/$mes/$ano válida!");
         else
-          print("Data: $dia/$mes/$ano inválida!");
+          print("\nData: $dia/$mes/$ano inválida!");
       break;
 
       default:
         if ((dia > 0) && (dia < 32) && (mes > 0) && (mes < 13))
-          print("Data: $dia/$mes/$ano válida!");
+          print("\nData: $dia/$mes/$ano válida!");
         else
-          print("Data: $dia/$mes/$ano inválida!");
+          print("\nData: $dia/$mes/$ano inválida!");
     }
   }
 
   else
-    print("Data: $dia/$mes/$ano inválida!");
+    print("\nData: $dia/$mes/$ano inválida!");
 
 }

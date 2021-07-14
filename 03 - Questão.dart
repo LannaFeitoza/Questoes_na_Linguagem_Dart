@@ -13,7 +13,7 @@ void main(){
   numero=(numero - dezena) / 10;
   double centena= numero;
 
-  print("Unidade: $unidade");
+  print("\nUnidade: $unidade");
   print("Dezena: $dezena");
   print("Centena: $centena");
 

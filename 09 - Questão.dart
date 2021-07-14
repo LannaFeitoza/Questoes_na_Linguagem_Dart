@@ -5,105 +5,105 @@ void main(){
   print("Digite o dia: ");
   int dia= int.parse(stdin.readLineSync()!);
 
-  print("Digite o mês: ");
+  print("\nDigite o mês: ");
   int mes= int.parse(stdin.readLineSync()!);
 
   switch(mes){
 
     case 1:
       if((dia >= 1) && (dia <= 19))
-        print("Capricórnio");
+        print("\nCapricórnio");
 
       else if((dia >= 20) && (dia <= 31))
-        print("Aquário");
+        print("\nAquário");
     break;
 
     case 2:
       if((dia >= 1) && (dia <= 18))
-        print("Aquário");
+        print("\nAquário");
 
       else if((dia >= 19) && (dia <= 29))
-        print("Peixes");
+        print("\nPeixes");
     break;
 
     case 3:
       if((dia >= 1) && (dia <= 20))
-        print("Peixes");
+        print("\nPeixes");
 
       else if((dia >= 21) && (dia <= 31))
-        print("Áries");
+        print("\nÁries");
     break;
 
     case 4:
       if((dia >= 1) && (dia <= 19))
-        print("Áries");
+        print("\nÁries");
 
       else if((dia >= 20) && (dia <= 30))
-        print("Touro");
+        print("\nTouro");
     break;
 
     case 5:
       if((dia >= 1) && (dia <= 20))
-        print("Touro");
+        print("\nTouro");
 
       else if((dia >= 21) && (dia <= 31))
-        print("Gêmeos");
+        print("\nGêmeos");
     break;
 
     case 6:
       if((dia >= 1) && (dia <= 21))
-        print("Gêmeos");
+        print("\nGêmeos");
 
       else if((dia >= 22) && (dia <= 30))
-        print("Câncer");
+        print("\nCâncer");
     break;
 
     case 7:
       if((dia >= 1) && (dia <= 22))
-        print("Câncer");
+        print("\nCâncer");
 
       else if((dia >= 23) && (dia <= 31))
-        print("Leão");
+        print("\nLeão");
     break;
 
     case 8:
       if((dia >= 1) && (dia <= 22))
-        print("Leão");
+        print("\nLeão");
 
       else if((dia >= 23) && (dia <= 31))
-        print("Virgem");
+        print("\nVirgem");
     break;
 
     case 9:
       if((dia >= 1) && (dia <= 22))
-        print("Virgem");
+        print("\nVirgem");
 
       else if((dia >= 23) && (dia <= 30))
-        print("Libra");
+        print("\nLibra");
     break;
 
     case 10:
       if((dia >= 1) && (dia <= 22))
-        print("Libra");
+        print("\nLibra");
 
       else if((dia >= 23) && (dia <= 31))
-        print("Escorpião");
+        print("\nEscorpião");
     break;
 
     case 11:
       if((dia >= 1) && (dia <= 21))
-        print("Escorpião");
+        print("\nEscorpião");
 
       else if((dia >= 22) && (dia <= 30))
-        print("Sagitário");
+        print("\nSagitário");
     break;
 
     case 12:
       if((dia >= 1) && (dia <= 21))
-        print("Sagitário");
+        print("\nSagitário");
 
       else if((dia >= 22) && (dia <= 31))
-        print("Capricárnio");
+        print("\nCapricárnio");
     break;
 
   }
