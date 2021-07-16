@@ -20,4 +20,4 @@ Formas de resolver:
 - stdin.readLineSync()!;
 - stdin.readLineSync() ?? '';
 - - -
-Ainda vou terminar de passar o resto das questões para Dart :D
+Se tiverem dúvidas é só entrar em contato comigo pelo e-mail. ;D
